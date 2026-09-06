@@ -37,8 +37,8 @@ export default async function DashboardPage() {
               Great hires start with great clarity.
             </h1>
             <div className="pl-6 border-l-2 border-indigo-500/50">
-              <p className="text-lg text-slate-300 italic mb-2">"Simplicity is the ultimate sophistication."</p>
-              <p className="text-sm font-mono text-slate-500 uppercase tracking-widest">— Leonardo da Vinci</p>
+              <p className="text-lg text-slate-300 italic mb-2">"I hire people brighter than me and I get out of their way."</p>
+              <p className="text-sm font-mono text-slate-500 uppercase tracking-widest">— Lee Iacocca</p>
             </div>
           </div>
 
