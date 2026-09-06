@@ -1,0 +1,3016 @@
+{
+  "companies": [
+    {
+      "id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "name": "Acme Technologies",
+      "slug": "acme-technologies"
+    },
+    {
+      "id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "name": "Nova Labs",
+      "slug": "nova-labs"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "653ca4f5-3464-59ca-9634-9f5bc2b1f283",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-berlin",
+      "description": "We are hiring a Full Stack Engineer to join our Product team. This full time role is remote and is designed for a senior professional. The position is based in Berlin, Germany. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Product",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-berlin",
+      "date_posted": "2026-07-27T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "4c40aec6-2ab7-551f-9f53-f3e26a448b5f",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Business Analyst",
+      "slug": "business-analyst-riyadh",
+      "description": "We are hiring a Business Analyst to join our Customer Success team. This part time role is hybrid and is designed for a mid-level professional. The position is based in Riyadh, Saudi Arabia. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-riyadh",
+      "date_posted": "2026-08-31T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "2b9ca3c7-4dc5-586e-bb54-9c59539c07c0",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Software Engineer",
+      "slug": "software-engineer-berlin",
+      "description": "We are hiring a Software Engineer to join our Sales team. This contract role is remote and is designed for a senior professional. The position is based in Berlin, Germany. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Sales",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/software-engineer-berlin",
+      "date_posted": "2026-08-04T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "bf1fbd88-241e-5c08-95c1-a780525ef0aa",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-boston",
+      "description": "We are hiring a Marketing Manager to join our Engineering team. This part time role is hybrid and is designed for a mid-level professional. The position is based in Boston, United States. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Engineering",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-boston",
+      "date_posted": "2026-08-14T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "80871382-fbc1-5fa3-ac75-b9310a49d349",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-boston",
+      "description": "We are hiring a UX Researcher to join our Engineering team. This full time role is hybrid and is designed for a senior professional. The position is based in Boston, United States. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Engineering",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-boston",
+      "date_posted": "2026-08-05T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "2ec5b116-c93a-504a-a062-d4404c95aab7",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "AI Product Manager",
+      "slug": "ai-product-manager-athens",
+      "description": "We are hiring a AI Product Manager to join our Operations team. This full time role is on-site and is designed for a junior professional. The position is based in Athens, Greece. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Operations",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/ai-product-manager-athens",
+      "date_posted": "2026-07-30T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "c6edff47-ab9a-5fb4-b6ed-35a163df4e75",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Sales Development Representative",
+      "slug": "sales-development-representative-berlin",
+      "description": "We are hiring a Sales Development Representative to join our Marketing team. This full time role is remote and is designed for a mid-level professional. The position is based in Berlin, Germany. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Marketing",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/sales-development-representative-berlin",
+      "date_posted": "2026-08-09T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "e227330e-20d4-5c89-ac55-a99871893757",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-athens",
+      "description": "We are hiring a Frontend Engineer to join our Engineering team. This part time role is hybrid and is designed for a junior professional. The position is based in Athens, Greece. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Engineering",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-athens",
+      "date_posted": "2026-07-08T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "46e382d5-ea88-5cca-b5d4-27cecae3daeb",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Sales Development Representative",
+      "slug": "sales-development-representative-cairo",
+      "description": "We are hiring a Sales Development Representative to join our Sales team. This contract role is on-site and is designed for a senior professional. The position is based in Cairo, Egypt. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Sales",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/sales-development-representative-cairo",
+      "date_posted": "2026-09-05T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "1aeee17d-c5a5-50d3-b291-6a65a9cd412f",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Data Analyst",
+      "slug": "data-analyst-dubai",
+      "description": "We are hiring a Data Analyst to join our Customer Success team. This full time role is on-site and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/data-analyst-dubai",
+      "date_posted": "2026-07-14T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "0c217cd8-5d19-5b7e-9a87-51770cad6ed5",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Solutions Consultant",
+      "slug": "solutions-consultant-hyderabad",
+      "description": "We are hiring a Solutions Consultant to join our Engineering team. This contract role is hybrid and is designed for a junior professional. The position is based in Hyderabad, India. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Engineering",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/solutions-consultant-hyderabad",
+      "date_posted": "2026-07-26T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "1959a106-b0c4-53e5-be3f-247dff9f36d9",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-athens",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Operations team. This part time role is hybrid and is designed for a senior professional. The position is based in Athens, Greece. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Operations",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-athens",
+      "date_posted": "2026-07-24T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "0e430a5c-ec67-5127-8f60-a05f50dbc1f6",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Operations Associate",
+      "slug": "operations-associate-bangalore",
+      "description": "We are hiring a Operations Associate to join our Analytics team. This contract role is hybrid and is designed for a junior professional. The position is based in Bangalore, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Analytics",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-bangalore",
+      "date_posted": "2026-08-20T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "75db1c19-4d23-5480-866f-4f5c43254fc1",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-berlin",
+      "description": "We are hiring a QA Engineer to join our Marketing team. This contract role is hybrid and is designed for a junior professional. The position is based in Berlin, Germany. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Marketing",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-berlin",
+      "date_posted": "2026-07-19T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "e4dbdc42-81fa-511b-85e2-760bc95887d6",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-berlin",
+      "description": "We are hiring a UX Researcher to join our R&D team. This full time role is on-site and is designed for a senior professional. The position is based in Berlin, Germany. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-berlin",
+      "date_posted": "2026-08-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "7d9811f7-9128-56d7-8a8c-4e70a34099b8",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Product Designer",
+      "slug": "product-designer-boston",
+      "description": "We are hiring a Product Designer to join our Operations team. This part time role is on-site and is designed for a mid-level professional. The position is based in Boston, United States. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Operations",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/product-designer-boston",
+      "date_posted": "2026-07-15T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a66bb88d-fa97-5d50-8ca1-60584d6452a2",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-dubai",
+      "description": "We are hiring a Full Stack Engineer to join our Engineering team. This part time role is hybrid and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Engineering",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-dubai",
+      "date_posted": "2026-08-14T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "d23bcdf0-bb02-5112-89c7-b289dd9bc38a",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Product Designer",
+      "slug": "product-designer-istanbul",
+      "description": "We are hiring a Product Designer to join our Customer Success team. This full time role is remote and is designed for a mid-level professional. The position is based in Istanbul, Turkey. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/product-designer-istanbul",
+      "date_posted": "2026-08-19T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "06340e30-2846-50fa-9386-2f824c783b2e",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-dubai",
+      "description": "We are hiring a Marketing Manager to join our Engineering team. This full time role is on-site and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Engineering",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-dubai",
+      "date_posted": "2026-09-02T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "cc6e2f85-10fa-5a91-a6d9-aa9a95691da5",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "AI Product Manager",
+      "slug": "ai-product-manager-cairo",
+      "description": "We are hiring a AI Product Manager to join our Analytics team. This full time role is hybrid and is designed for a junior professional. The position is based in Cairo, Egypt. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Analytics",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/ai-product-manager-cairo",
+      "date_posted": "2026-08-19T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "b318f7da-7c08-5283-abbd-66fec121a24c",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-boston",
+      "description": "We are hiring a Marketing Manager to join our Analytics team. This part time role is hybrid and is designed for a junior professional. The position is based in Boston, United States. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Analytics",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-boston",
+      "date_posted": "2026-07-12T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "fb50bc5f-a4a1-5b68-badc-77fdeb7297c1",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Backend Developer",
+      "slug": "backend-developer-bangalore",
+      "description": "We are hiring a Backend Developer to join our Product team. This part time role is hybrid and is designed for a senior professional. The position is based in Bangalore, India. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/backend-developer-bangalore",
+      "date_posted": "2026-08-15T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "79698733-d452-534a-b6fe-500fdb9e1d70",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Technical Writer",
+      "slug": "technical-writer-berlin",
+      "description": "We are hiring a Technical Writer to join our Sales team. This full time role is on-site and is designed for a junior professional. The position is based in Berlin, Germany. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Sales",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/technical-writer-berlin",
+      "date_posted": "2026-08-23T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ffec3205-fb84-5b42-89c9-795df8628736",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "DevOps Engineer",
+      "slug": "devops-engineer-dubai",
+      "description": "We are hiring a DevOps Engineer to join our Customer Success team. This contract role is hybrid and is designed for a junior professional. The position is based in Dubai, United Arab Emirates. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/devops-engineer-dubai",
+      "date_posted": "2026-07-30T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "efcdba9c-4ded-5258-994c-ca30605372c2",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-istanbul",
+      "description": "We are hiring a Customer Success Executive to join our Customer Success team. This full time role is hybrid and is designed for a junior professional. The position is based in Istanbul, Turkey. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-istanbul",
+      "date_posted": "2026-08-11T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "d60cac41-54b1-588b-a086-f5cad198cb23",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-cairo",
+      "description": "We are hiring a Marketing Manager to join our Product team. This part time role is on-site and is designed for a mid-level professional. The position is based in Cairo, Egypt. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-cairo",
+      "date_posted": "2026-08-24T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "d2f5b9e5-3a21-5cf8-8f09-0a0af34908c0",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Sales Development Representative",
+      "slug": "sales-development-representative-hyderabad",
+      "description": "We are hiring a Sales Development Representative to join our Marketing team. This full time role is hybrid and is designed for a senior professional. The position is based in Hyderabad, India. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Marketing",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/sales-development-representative-hyderabad",
+      "date_posted": "2026-07-24T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "df66eed4-d8a9-565b-8977-4b20cb7db976",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Product Designer",
+      "slug": "product-designer-boston",
+      "description": "We are hiring a Product Designer to join our Analytics team. This full time role is hybrid and is designed for a mid-level professional. The position is based in Boston, United States. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Analytics",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/product-designer-boston",
+      "date_posted": "2026-07-25T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "46c455eb-0746-5331-918e-c01ebe64d29c",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Sales Development Representative",
+      "slug": "sales-development-representative-berlin",
+      "description": "We are hiring a Sales Development Representative to join our Operations team. This contract role is hybrid and is designed for a senior professional. The position is based in Berlin, Germany. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Operations",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/sales-development-representative-berlin",
+      "date_posted": "2026-07-10T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "385fd500-8a7c-57c7-b933-fe4692e7c422",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Technical Writer",
+      "slug": "technical-writer-athens",
+      "description": "We are hiring a Technical Writer to join our Product team. This part time role is remote and is designed for a senior professional. The position is based in Athens, Greece. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/technical-writer-athens",
+      "date_posted": "2026-07-11T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "e7580d75-438d-5fa7-a1ac-9fc4e7bcff9c",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Backend Developer",
+      "slug": "backend-developer-riyadh",
+      "description": "We are hiring a Backend Developer to join our IT Support team. This contract role is on-site and is designed for a junior professional. The position is based in Riyadh, Saudi Arabia. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/backend-developer-riyadh",
+      "date_posted": "2026-07-08T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ac7c73df-d279-55a9-a57a-18650c0e3a32",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Operations Associate",
+      "slug": "operations-associate-cairo",
+      "description": "We are hiring a Operations Associate to join our Sales team. This contract role is hybrid and is designed for a mid-level professional. The position is based in Cairo, Egypt. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Sales",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-cairo",
+      "date_posted": "2026-08-14T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "39cb57f5-7ec1-58df-8447-5336ac2ea56e",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-dubai",
+      "description": "We are hiring a Full Stack Engineer to join our R&D team. This contract role is remote and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "R&D",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-dubai",
+      "date_posted": "2026-08-16T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "3ebc4c4b-1b5a-50b8-a897-00b562685b0b",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-hyderabad",
+      "description": "We are hiring a UX Researcher to join our R&D team. This full time role is remote and is designed for a senior professional. The position is based in Hyderabad, India. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-hyderabad",
+      "date_posted": "2026-08-31T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "5c23bd47-39a7-5e4d-b5b0-b7169b0b77a2",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Technical Writer",
+      "slug": "technical-writer-dubai",
+      "description": "We are hiring a Technical Writer to join our Product team. This part time role is hybrid and is designed for a senior professional. The position is based in Dubai, United Arab Emirates. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/technical-writer-dubai",
+      "date_posted": "2026-08-21T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "b3aa7060-529e-5a26-abcd-8e584f6e7366",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Software Engineer",
+      "slug": "software-engineer-cairo",
+      "description": "We are hiring a Software Engineer to join our Product team. This part time role is on-site and is designed for a senior professional. The position is based in Cairo, Egypt. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/software-engineer-cairo",
+      "date_posted": "2026-08-14T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "9cc8cc30-1707-574c-80a4-066828a845f4",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-riyadh",
+      "description": "We are hiring a QA Engineer to join our R&D team. This full time role is remote and is designed for a senior professional. The position is based in Riyadh, Saudi Arabia. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-riyadh",
+      "date_posted": "2026-07-26T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "1bf2efdc-47e6-5cbf-a4c5-3a254267f7f7",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-cairo",
+      "description": "We are hiring a Full Stack Engineer to join our Customer Success team. This part time role is hybrid and is designed for a mid-level professional. The position is based in Cairo, Egypt. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-cairo",
+      "date_posted": "2026-08-27T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "f76a7210-f1b2-5bc1-993c-95a37ef26e72",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Sales Development Representative",
+      "slug": "sales-development-representative-riyadh",
+      "description": "We are hiring a Sales Development Representative to join our IT Support team. This contract role is remote and is designed for a mid-level professional. The position is based in Riyadh, Saudi Arabia. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/sales-development-representative-riyadh",
+      "date_posted": "2026-08-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "34db5deb-8569-53cc-9fc6-e9c351644edb",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-cairo",
+      "description": "We are hiring a Full Stack Engineer to join our IT Support team. This contract role is hybrid and is designed for a senior professional. The position is based in Cairo, Egypt. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-cairo",
+      "date_posted": "2026-08-08T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "45f7b968-0295-5e90-a67d-2b03f8b69e9a",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Business Analyst",
+      "slug": "business-analyst-boston",
+      "description": "We are hiring a Business Analyst to join our Marketing team. This part time role is on-site and is designed for a senior professional. The position is based in Boston, United States. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Marketing",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-boston",
+      "date_posted": "2026-07-28T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "bdd78076-9217-500c-b66f-775752aacb1c",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Product Designer",
+      "slug": "product-designer-boston-42",
+      "description": "We are hiring a Product Designer to join our Engineering team. This contract role is remote and is designed for a junior professional. The position is based in Boston, United States. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Engineering",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/product-designer-boston-42",
+      "date_posted": "2026-08-27T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "5a892813-a881-5fa1-a121-3a27cdb77135",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Backend Developer",
+      "slug": "backend-developer-cairo",
+      "description": "We are hiring a Backend Developer to join our Customer Success team. This full time role is hybrid and is designed for a junior professional. The position is based in Cairo, Egypt. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/backend-developer-cairo",
+      "date_posted": "2026-07-23T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "bad04b8b-e175-5a30-8cf1-f04873d174f3",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-riyadh",
+      "description": "We are hiring a Marketing Manager to join our Analytics team. This contract role is on-site and is designed for a mid-level professional. The position is based in Riyadh, Saudi Arabia. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "Analytics",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-riyadh",
+      "date_posted": "2026-07-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "eb8b72ab-f0ad-5635-9f0b-e5d6216ca470",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-cairo",
+      "description": "We are hiring a UX Researcher to join our Sales team. This full time role is remote and is designed for a junior professional. The position is based in Cairo, Egypt. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Sales",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-cairo",
+      "date_posted": "2026-07-25T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "63c8337f-56ef-5717-bf23-ce274bde65e0",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Sales Development Representative",
+      "slug": "sales-development-representative-london",
+      "description": "We are hiring a Sales Development Representative to join our Operations team. This part time role is remote and is designed for a senior professional. The position is based in London, England, United Kingdom. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "Operations",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/sales-development-representative-london",
+      "date_posted": "2026-08-17T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "93f19677-ca9e-5038-a5ed-2dac7f1e8854",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-riyadh",
+      "description": "We are hiring a Customer Success Executive to join our R&D team. This contract role is on-site and is designed for a senior professional. The position is based in Riyadh, Saudi Arabia. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "R&D",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-riyadh",
+      "date_posted": "2026-09-02T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "73cc1e95-68f0-5d7b-a394-3295b62db110",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Business Analyst",
+      "slug": "business-analyst-london",
+      "description": "We are hiring a Business Analyst to join our Analytics team. This contract role is hybrid and is designed for a mid-level professional. The position is based in London, England, United Kingdom. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "Analytics",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-london",
+      "date_posted": "2026-07-09T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "91ae1cf0-5ba3-5810-879d-2676b65e0bbc",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Product Designer",
+      "slug": "product-designer-hyderabad",
+      "description": "We are hiring a Product Designer to join our R&D team. This contract role is remote and is designed for a junior professional. The position is based in Hyderabad, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "R&D",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/product-designer-hyderabad",
+      "date_posted": "2026-07-11T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "5f946f69-36dd-516c-81b5-8e171d3b353a",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-bangalore",
+      "description": "We are hiring a UX Researcher to join our Design team. This part time role is hybrid and is designed for a junior professional. The position is based in Bangalore, India. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Design",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-bangalore",
+      "date_posted": "2026-07-17T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "9dda53d4-5477-5cf9-8e1a-9b0291731b3d",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Solutions Consultant",
+      "slug": "solutions-consultant-bangalore",
+      "description": "We are hiring a Solutions Consultant to join our IT Support team. This contract role is on-site and is designed for a junior professional. The position is based in Bangalore, India. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/solutions-consultant-bangalore",
+      "date_posted": "2026-07-12T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a62544ad-67a0-5314-8436-5c40f2cc7f1c",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Business Analyst",
+      "slug": "business-analyst-athens",
+      "description": "We are hiring a Business Analyst to join our Design team. This contract role is on-site and is designed for a junior professional. The position is based in Athens, Greece. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Design",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-athens",
+      "date_posted": "2026-07-17T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "1b2db251-f592-50da-ac21-1589ff6a1e5c",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-athens",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Design team. This contract role is on-site and is designed for a junior professional. The position is based in Athens, Greece. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Design",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-athens",
+      "date_posted": "2026-08-15T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "d070b2d7-db07-5597-b79a-73a71007118d",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-bangalore",
+      "description": "We are hiring a Marketing Manager to join our IT Support team. This part time role is remote and is designed for a mid-level professional. The position is based in Bangalore, India. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "IT Support",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-bangalore",
+      "date_posted": "2026-07-21T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "1b38b062-8a99-5709-b40c-7dd480f4ed89",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-boston",
+      "description": "We are hiring a UX Researcher to join our R&D team. This full time role is on-site and is designed for a senior professional. The position is based in Boston, United States. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-boston",
+      "date_posted": "2026-08-17T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "8f07f310-36e0-5730-a127-f49f96dbfcb5",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-istanbul",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our R&D team. This contract role is remote and is designed for a mid-level professional. The position is based in Istanbul, Turkey. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "R&D",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-istanbul",
+      "date_posted": "2026-08-15T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "0b7ca156-9951-5cf6-9670-752544e1d2f2",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-istanbul",
+      "description": "We are hiring a Frontend Engineer to join our Engineering team. This full time role is remote and is designed for a senior professional. The position is based in Istanbul, Turkey. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Engineering",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-istanbul",
+      "date_posted": "2026-07-23T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a5afd56e-aed2-5d80-b824-afc50e34ed18",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Operations Associate",
+      "slug": "operations-associate-riyadh",
+      "description": "We are hiring a Operations Associate to join our Customer Success team. This part time role is on-site and is designed for a mid-level professional. The position is based in Riyadh, Saudi Arabia. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-riyadh",
+      "date_posted": "2026-08-21T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "26e077b9-924f-5095-a62e-42a4ef01e0fb",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Software Engineer",
+      "slug": "software-engineer-athens",
+      "description": "We are hiring a Software Engineer to join our Sales team. This full time role is on-site and is designed for a junior professional. The position is based in Athens, Greece. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Sales",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/software-engineer-athens",
+      "date_posted": "2026-08-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "97e40536-9b6a-529b-9899-7399aa60c158",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-cairo",
+      "description": "We are hiring a Frontend Engineer to join our Sales team. This contract role is hybrid and is designed for a junior professional. The position is based in Cairo, Egypt. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Sales",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-cairo",
+      "date_posted": "2026-07-21T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "4c7b9695-1fed-5b0b-93cd-1e4c2fe7f7c5",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Cloud Architect",
+      "slug": "cloud-architect-dubai",
+      "description": "We are hiring a Cloud Architect to join our Customer Success team. This contract role is remote and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/cloud-architect-dubai",
+      "date_posted": "2026-07-19T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ac8785ed-82f8-5af9-a3a9-7a3d543f5f25",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Business Analyst",
+      "slug": "business-analyst-riyadh",
+      "description": "We are hiring a Business Analyst to join our IT Support team. This contract role is remote and is designed for a junior professional. The position is based in Riyadh, Saudi Arabia. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-riyadh",
+      "date_posted": "2026-07-11T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "9a7023fd-478c-5090-a6f6-3d9ffe144e57",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-hyderabad",
+      "description": "We are hiring a Full Stack Engineer to join our Marketing team. This contract role is hybrid and is designed for a mid-level professional. The position is based in Hyderabad, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Marketing",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-hyderabad",
+      "date_posted": "2026-07-21T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "d5776f4e-a8b0-5297-a0c7-0421fe467d33",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-riyadh",
+      "description": "We are hiring a Frontend Engineer to join our Customer Success team. This contract role is on-site and is designed for a senior professional. The position is based in Riyadh, Saudi Arabia. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-riyadh",
+      "date_posted": "2026-07-13T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "f74ea49b-03a1-553a-a570-030ed87ad115",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-istanbul",
+      "description": "We are hiring a Frontend Engineer to join our IT Support team. This contract role is on-site and is designed for a junior professional. The position is based in Istanbul, Turkey. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-istanbul",
+      "date_posted": "2026-08-30T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a3fc9151-36f2-526c-bf93-5bf4e190ee13",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-berlin",
+      "description": "We are hiring a Customer Success Executive to join our Design team. This part time role is remote and is designed for a mid-level professional. The position is based in Berlin, Germany. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Design",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-berlin",
+      "date_posted": "2026-08-23T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "9ca09340-f5e3-57cd-9905-9a2824905f31",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Technical Writer",
+      "slug": "technical-writer-riyadh",
+      "description": "We are hiring a Technical Writer to join our Analytics team. This contract role is hybrid and is designed for a junior professional. The position is based in Riyadh, Saudi Arabia. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "Analytics",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/technical-writer-riyadh",
+      "date_posted": "2026-09-01T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "1446cec8-7f1d-526d-844c-406e1310373f",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Operations Associate",
+      "slug": "operations-associate-dubai",
+      "description": "We are hiring a Operations Associate to join our Product team. This part time role is on-site and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-dubai",
+      "date_posted": "2026-07-15T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "2b09e095-6f16-5b76-91ce-d180e741c1aa",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Software Engineer",
+      "slug": "software-engineer-london",
+      "description": "We are hiring a Software Engineer to join our IT Support team. This contract role is remote and is designed for a mid-level professional. The position is based in London, England, United Kingdom. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/software-engineer-london",
+      "date_posted": "2026-08-28T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "3e93e4b5-d675-54b7-bf39-170cc1388632",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-london",
+      "description": "We are hiring a QA Engineer to join our IT Support team. This part time role is on-site and is designed for a mid-level professional. The position is based in London, England, United Kingdom. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "IT Support",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-london",
+      "date_posted": "2026-09-05T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "3a7c7316-aa95-5d3b-a218-46c2acc19e2e",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Solutions Consultant",
+      "slug": "solutions-consultant-dubai",
+      "description": "We are hiring a Solutions Consultant to join our Product team. This part time role is on-site and is designed for a senior professional. The position is based in Dubai, United Arab Emirates. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/solutions-consultant-dubai",
+      "date_posted": "2026-07-25T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ebd55250-fe42-590c-9107-a4e5d470e77f",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-hyderabad",
+      "description": "We are hiring a Marketing Manager to join our Product team. This contract role is on-site and is designed for a senior professional. The position is based in Hyderabad, India. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Product",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-hyderabad",
+      "date_posted": "2026-09-05T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ed2cd913-e980-5c9d-80a7-32f214cecab7",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-cairo",
+      "description": "We are hiring a Customer Success Executive to join our Engineering team. This full time role is on-site and is designed for a mid-level professional. The position is based in Cairo, Egypt. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Engineering",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-cairo",
+      "date_posted": "2026-08-27T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ba5418af-9af8-54e7-b677-e8543f06a38b",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-istanbul",
+      "description": "We are hiring a Full Stack Engineer to join our IT Support team. This full time role is remote and is designed for a junior professional. The position is based in Istanbul, Turkey. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "IT Support",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-istanbul",
+      "date_posted": "2026-08-01T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "7aee423d-db4b-5eaf-b327-4cb4bb412a0f",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-istanbul",
+      "description": "We are hiring a Customer Success Executive to join our Engineering team. This contract role is remote and is designed for a junior professional. The position is based in Istanbul, Turkey. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Engineering",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-istanbul",
+      "date_posted": "2026-07-16T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "73ccc1c7-6a2b-5827-a5fd-93fe35085f84",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Backend Developer",
+      "slug": "backend-developer-boston",
+      "description": "We are hiring a Backend Developer to join our Operations team. This part time role is on-site and is designed for a mid-level professional. The position is based in Boston, United States. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Operations",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/backend-developer-boston",
+      "date_posted": "2026-07-27T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "dd599bf5-a257-56f6-b0e1-299a5ff993d4",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "AI Product Manager",
+      "slug": "ai-product-manager-london",
+      "description": "We are hiring a AI Product Manager to join our Customer Success team. This contract role is hybrid and is designed for a junior professional. The position is based in London, England, United Kingdom. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/ai-product-manager-london",
+      "date_posted": "2026-07-21T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "77fbd024-309c-582d-a061-44b67cffef17",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Operations Associate",
+      "slug": "operations-associate-cairo",
+      "description": "We are hiring a Operations Associate to join our IT Support team. This contract role is hybrid and is designed for a senior professional. The position is based in Cairo, Egypt. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-cairo",
+      "date_posted": "2026-08-07T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "2b968780-679d-55e5-be17-32713f2652c9",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-istanbul",
+      "description": "We are hiring a Marketing Manager to join our Design team. This full time role is remote and is designed for a mid-level professional. The position is based in Istanbul, Turkey. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Design",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-istanbul",
+      "date_posted": "2026-07-22T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "052727e5-8438-5dfa-9467-3c270949c502",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-bangalore",
+      "description": "We are hiring a UX Researcher to join our Product team. This contract role is on-site and is designed for a senior professional. The position is based in Bangalore, India. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Product",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-bangalore",
+      "date_posted": "2026-08-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "3afa872f-954d-5530-99a0-c4db91c63d56",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-hyderabad",
+      "description": "We are hiring a QA Engineer to join our Sales team. This part time role is remote and is designed for a senior professional. The position is based in Hyderabad, India. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Sales",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-hyderabad",
+      "date_posted": "2026-08-28T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a4e7baef-a6a2-5f9c-bd32-a0cd0c6c4d58",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Technical Writer",
+      "slug": "technical-writer-boston",
+      "description": "We are hiring a Technical Writer to join our Operations team. This full time role is hybrid and is designed for a senior professional. The position is based in Boston, United States. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Operations",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/technical-writer-boston",
+      "date_posted": "2026-08-30T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "827a7681-346e-5474-9dad-221b3fa2723d",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Operations Associate",
+      "slug": "operations-associate-boston",
+      "description": "We are hiring a Operations Associate to join our R&D team. This part time role is hybrid and is designed for a junior professional. The position is based in Boston, United States. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "R&D",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-boston",
+      "date_posted": "2026-08-08T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "38e824a7-8d89-5ecc-ab37-3ed0eb5fb792",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-hyderabad",
+      "description": "We are hiring a QA Engineer to join our Customer Success team. This contract role is remote and is designed for a mid-level professional. The position is based in Hyderabad, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-hyderabad",
+      "date_posted": "2026-08-14T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a5b72b2e-ef6b-5c0a-a098-b30a7819e4f6",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Cloud Architect",
+      "slug": "cloud-architect-hyderabad",
+      "description": "We are hiring a Cloud Architect to join our Marketing team. This contract role is remote and is designed for a junior professional. The position is based in Hyderabad, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Marketing",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/cloud-architect-hyderabad",
+      "date_posted": "2026-07-17T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "292fbdf9-8db2-5538-b54a-efc5ce752394",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-cairo-86",
+      "description": "We are hiring a Full Stack Engineer to join our Analytics team. This full time role is hybrid and is designed for a junior professional. The position is based in Cairo, Egypt. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Analytics",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-cairo-86",
+      "date_posted": "2026-08-07T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "7eaee9ad-38f5-5142-9091-c14cb66a7fc6",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-boston",
+      "description": "We are hiring a Customer Success Executive to join our Analytics team. This contract role is hybrid and is designed for a junior professional. The position is based in Boston, United States. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Analytics",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-boston",
+      "date_posted": "2026-08-23T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a5f3894f-b5e1-5130-8166-752a22bff91f",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Operations Associate",
+      "slug": "operations-associate-bangalore",
+      "description": "We are hiring a Operations Associate to join our R&D team. This full time role is hybrid and is designed for a junior professional. The position is based in Bangalore, India. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-bangalore",
+      "date_posted": "2026-07-30T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "b27a4885-84ec-5c7d-b086-7ff647460ab1",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-berlin",
+      "description": "We are hiring a Full Stack Engineer to join our Analytics team. This contract role is hybrid and is designed for a senior professional. The position is based in Berlin, Germany. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Analytics",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-berlin",
+      "date_posted": "2026-07-07T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "8743cf56-f889-5d89-b8bf-df957353f766",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-hyderabad-90",
+      "description": "We are hiring a QA Engineer to join our Customer Success team. This part time role is on-site and is designed for a mid-level professional. The position is based in Hyderabad, India. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-hyderabad-90",
+      "date_posted": "2026-07-15T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "1aaf118f-fd41-5c28-9a84-4bfe129a1d22",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-dubai",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Product team. This full time role is remote and is designed for a senior professional. The position is based in Dubai, United Arab Emirates. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Product",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-dubai",
+      "date_posted": "2026-07-15T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "bdfc06f1-8a40-5a9c-b2da-307e50b3e625",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Data Analyst",
+      "slug": "data-analyst-bangalore",
+      "description": "We are hiring a Data Analyst to join our Product team. This part time role is remote and is designed for a junior professional. The position is based in Bangalore, India. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/data-analyst-bangalore",
+      "date_posted": "2026-07-10T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ab6d9477-cf34-519b-95af-934529e64ffc",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Full Stack Engineer",
+      "slug": "full-stack-engineer-boston",
+      "description": "We are hiring a Full Stack Engineer to join our Engineering team. This part time role is remote and is designed for a mid-level professional. The position is based in Boston, United States. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Engineering",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/full-stack-engineer-boston",
+      "date_posted": "2026-07-23T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "7adc98a7-72cd-54d5-8d43-cfa5407d6710",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Business Analyst",
+      "slug": "business-analyst-dubai",
+      "description": "We are hiring a Business Analyst to join our Operations team. This part time role is remote and is designed for a senior professional. The position is based in Dubai, United Arab Emirates. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Operations",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-dubai",
+      "date_posted": "2026-07-12T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "0110c169-cb42-5ce9-8c21-6d408fcf344b",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-bangalore-95",
+      "description": "We are hiring a UX Researcher to join our Analytics team. This full time role is on-site and is designed for a mid-level professional. The position is based in Bangalore, India. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Analytics",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-bangalore-95",
+      "date_posted": "2026-07-09T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "9d0d9461-322b-5ba1-84e9-db1c1af464fd",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-london",
+      "description": "We are hiring a Frontend Engineer to join our Product team. This part time role is on-site and is designed for a senior professional. The position is based in London, England, United Kingdom. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "Product",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-london",
+      "date_posted": "2026-08-06T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "15fd950b-7b31-54dc-ad48-9d13b8ab33c3",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Cloud Architect",
+      "slug": "cloud-architect-cairo",
+      "description": "We are hiring a Cloud Architect to join our Operations team. This part time role is hybrid and is designed for a mid-level professional. The position is based in Cairo, Egypt. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Operations",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Temporary",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/cloud-architect-cairo",
+      "date_posted": "2026-07-23T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "4515a954-5881-57ee-8e2f-d064070c8aa4",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-berlin",
+      "description": "We are hiring a QA Engineer to join our Customer Success team. This full time role is on-site and is designed for a mid-level professional. The position is based in Berlin, Germany. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-berlin",
+      "date_posted": "2026-07-22T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "11ca3b0a-bda4-53a8-8431-b9fcf2c767c5",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Machine Learning Engineer",
+      "slug": "machine-learning-engineer-boston",
+      "description": "We are hiring a Machine Learning Engineer to join our Sales team. This contract role is remote and is designed for a senior professional. The position is based in Boston, United States. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Sales",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/machine-learning-engineer-boston",
+      "date_posted": "2026-08-30T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ae406829-f7e5-5e20-9046-1d958c23ee97",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-bangalore",
+      "description": "We are hiring a Customer Success Executive to join our Analytics team. This full time role is remote and is designed for a mid-level professional. The position is based in Bangalore, India. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Analytics",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-bangalore",
+      "date_posted": "2026-07-11T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "15b3baa6-c4a4-5801-917b-f910d70c8ee8",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "DevOps Engineer",
+      "slug": "devops-engineer-berlin",
+      "description": "We are hiring a DevOps Engineer to join our Sales team. This part time role is remote and is designed for a junior professional. The position is based in Berlin, Germany. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Sales",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/devops-engineer-berlin",
+      "date_posted": "2026-08-23T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "059d550c-82a3-5f26-b96a-0b823d1200e1",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-cairo",
+      "description": "We are hiring a Customer Success Executive to join our Customer Success team. This contract role is on-site and is designed for a junior professional. The position is based in Cairo, Egypt. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-cairo",
+      "date_posted": "2026-08-18T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a11b6400-44b6-5f76-b3df-32d799d6f921",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Business Analyst",
+      "slug": "business-analyst-istanbul",
+      "description": "We are hiring a Business Analyst to join our Customer Success team. This full time role is hybrid and is designed for a mid-level professional. The position is based in Istanbul, Turkey. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-istanbul",
+      "date_posted": "2026-07-31T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "afd6c9b8-223d-5228-9bf4-c4c8577bc765",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-dubai",
+      "description": "We are hiring a Marketing Manager to join our Marketing team. This contract role is on-site and is designed for a senior professional. The position is based in Dubai, United Arab Emirates. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Marketing",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-dubai",
+      "date_posted": "2026-07-22T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "f1e35f71-be61-5fc4-b945-3ca2e7617004",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Cloud Architect",
+      "slug": "cloud-architect-hyderabad",
+      "description": "We are hiring a Cloud Architect to join our Operations team. This part time role is hybrid and is designed for a senior professional. The position is based in Hyderabad, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Operations",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/cloud-architect-hyderabad",
+      "date_posted": "2026-08-06T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "37bec9f4-d803-5d69-ab46-b104d010ea5a",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-bangalore",
+      "description": "We are hiring a Customer Success Executive to join our Engineering team. This part time role is on-site and is designed for a junior professional. The position is based in Bangalore, India. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Engineering",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-bangalore",
+      "date_posted": "2026-08-21T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "595f1faf-0341-59ee-a46b-84bd9c6a7401",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-berlin",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Operations team. This part time role is on-site and is designed for a junior professional. The position is based in Berlin, Germany. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Operations",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-berlin",
+      "date_posted": "2026-08-18T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "c3ddb479-c1eb-523d-8b35-32b44f414d47",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Business Analyst",
+      "slug": "business-analyst-bangalore",
+      "description": "We are hiring a Business Analyst to join our Customer Success team. This contract role is remote and is designed for a senior professional. The position is based in Bangalore, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-bangalore",
+      "date_posted": "2026-08-13T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "3ace5492-45ff-5a57-982d-8471f54bfbea",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-dubai",
+      "description": "We are hiring a UX Researcher to join our R&D team. This full time role is on-site and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-dubai",
+      "date_posted": "2026-08-09T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "52e03251-4717-5a17-a95e-0b00bb60178c",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "DevOps Engineer",
+      "slug": "devops-engineer-london",
+      "description": "We are hiring a DevOps Engineer to join our R&D team. This part time role is on-site and is designed for a mid-level professional. The position is based in London, England, United Kingdom. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "R&D",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/devops-engineer-london",
+      "date_posted": "2026-09-02T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "26c82324-0404-514f-abe8-74a91c49a2e9",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-riyadh",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Marketing team. This part time role is remote and is designed for a junior professional. The position is based in Riyadh, Saudi Arabia. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "Marketing",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-riyadh",
+      "date_posted": "2026-07-07T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "9baff6dc-1e13-5868-bb8a-73efad601960",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "UX Researcher",
+      "slug": "ux-researcher-athens",
+      "description": "We are hiring a UX Researcher to join our Engineering team. This contract role is on-site and is designed for a junior professional. The position is based in Athens, Greece. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Engineering",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/ux-researcher-athens",
+      "date_posted": "2026-07-19T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "db92fb4a-9bc7-5f20-9408-4b8c3307a747",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-istanbul-113",
+      "description": "We are hiring a Frontend Engineer to join our R&D team. This full time role is remote and is designed for a mid-level professional. The position is based in Istanbul, Turkey. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-istanbul-113",
+      "date_posted": "2026-08-15T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "f999dd2e-40bd-5f55-9edb-90081d4b3eb2",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "AI Product Manager",
+      "slug": "ai-product-manager-boston",
+      "description": "We are hiring a AI Product Manager to join our Engineering team. This full time role is on-site and is designed for a junior professional. The position is based in Boston, United States. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Engineering",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/ai-product-manager-boston",
+      "date_posted": "2026-08-18T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "0688fcb8-4e38-5590-b97b-aad3ec4b630a",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Technical Writer",
+      "slug": "technical-writer-dubai",
+      "description": "We are hiring a Technical Writer to join our Analytics team. This part time role is on-site and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Analytics",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/technical-writer-dubai",
+      "date_posted": "2026-07-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "afdce43f-1b62-5b13-9d5c-ae78e21b61a1",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Machine Learning Engineer",
+      "slug": "machine-learning-engineer-istanbul",
+      "description": "We are hiring a Machine Learning Engineer to join our Operations team. This contract role is on-site and is designed for a senior professional. The position is based in Istanbul, Turkey. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Operations",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/machine-learning-engineer-istanbul",
+      "date_posted": "2026-07-09T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "793744b3-6168-55e7-b16d-d9d5f50e7428",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "AI Product Manager",
+      "slug": "ai-product-manager-boston",
+      "description": "We are hiring a AI Product Manager to join our R&D team. This full time role is hybrid and is designed for a mid-level professional. The position is based in Boston, United States. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/ai-product-manager-boston",
+      "date_posted": "2026-08-01T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "d2415437-993a-5be1-a593-0ecb30d7b66f",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-berlin",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Design team. This contract role is on-site and is designed for a mid-level professional. The position is based in Berlin, Germany. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Design",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-berlin",
+      "date_posted": "2026-07-28T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "81c0a095-40f6-5506-a1d8-75bcc6757e31",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Software Engineer",
+      "slug": "software-engineer-bangalore",
+      "description": "We are hiring a Software Engineer to join our Marketing team. This contract role is on-site and is designed for a junior professional. The position is based in Bangalore, India. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Marketing",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/software-engineer-bangalore",
+      "date_posted": "2026-09-05T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "8205c172-63c6-5b4a-80e7-b6dad954db69",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Sales Development Representative",
+      "slug": "sales-development-representative-bangalore",
+      "description": "We are hiring a Sales Development Representative to join our Customer Success team. This part time role is remote and is designed for a senior professional. The position is based in Bangalore, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/sales-development-representative-bangalore",
+      "date_posted": "2026-07-16T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "aeec3eaf-88eb-502d-9c78-f344a79c4d3b",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Backend Developer",
+      "slug": "backend-developer-dubai",
+      "description": "We are hiring a Backend Developer to join our Marketing team. This part time role is hybrid and is designed for a senior professional. The position is based in Dubai, United Arab Emirates. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Marketing",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Permanent",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/backend-developer-dubai",
+      "date_posted": "2026-07-24T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "0aba819a-c0a3-5924-89e9-4bf751aa525f",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-berlin-122",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Customer Success team. This full time role is remote and is designed for a junior professional. The position is based in Berlin, Germany. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-berlin-122",
+      "date_posted": "2026-08-13T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ecaf62bd-31f1-5be6-8249-bdb646757dab",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Machine Learning Engineer",
+      "slug": "machine-learning-engineer-istanbul",
+      "description": "We are hiring a Machine Learning Engineer to join our IT Support team. This part time role is hybrid and is designed for a senior professional. The position is based in Istanbul, Turkey. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "IT Support",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/machine-learning-engineer-istanbul",
+      "date_posted": "2026-07-19T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "81fa0e72-dbca-55c1-950e-9d52428f0307",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Business Analyst",
+      "slug": "business-analyst-bangalore",
+      "description": "We are hiring a Business Analyst to join our Engineering team. This full time role is hybrid and is designed for a junior professional. The position is based in Bangalore, India. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Engineering",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-bangalore",
+      "date_posted": "2026-08-02T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "6d5cc77d-a723-51ff-972e-1ae2a04e7ebb",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Data Analyst",
+      "slug": "data-analyst-athens",
+      "description": "We are hiring a Data Analyst to join our IT Support team. This full time role is on-site and is designed for a junior professional. The position is based in Athens, Greece. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "IT Support",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/data-analyst-athens",
+      "date_posted": "2026-07-19T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "a18913bc-95f8-5b06-af42-ac7f4fda3c21",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "AI Product Manager",
+      "slug": "ai-product-manager-london",
+      "description": "We are hiring a AI Product Manager to join our Engineering team. This part time role is remote and is designed for a mid-level professional. The position is based in London, England, United Kingdom. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "Engineering",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/ai-product-manager-london",
+      "date_posted": "2026-08-06T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "6fd4e755-b603-5da1-af29-16811dc22189",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Backend Developer",
+      "slug": "backend-developer-dubai",
+      "description": "We are hiring a Backend Developer to join our IT Support team. This contract role is on-site and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "IT Support",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/backend-developer-dubai",
+      "date_posted": "2026-08-22T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "7dfcf603-8ef8-5448-944c-a03142bb16a8",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Data Analyst",
+      "slug": "data-analyst-hyderabad",
+      "description": "We are hiring a Data Analyst to join our Analytics team. This full time role is on-site and is designed for a mid-level professional. The position is based in Hyderabad, India. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Analytics",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/data-analyst-hyderabad",
+      "date_posted": "2026-07-14T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "d447a7e2-a7ee-5d06-85e8-fd2ed5890ad6",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Backend Developer",
+      "slug": "backend-developer-berlin",
+      "description": "We are hiring a Backend Developer to join our Engineering team. This contract role is hybrid and is designed for a senior professional. The position is based in Berlin, Germany. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Engineering",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/backend-developer-berlin",
+      "date_posted": "2026-07-07T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "5c738ff6-67f4-5283-90dd-87cf7c13a980",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-riyadh",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Operations team. This full time role is hybrid and is designed for a junior professional. The position is based in Riyadh, Saudi Arabia. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "department": "Operations",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-riyadh",
+      "date_posted": "2026-08-07T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "e0165f22-097c-51ef-b38d-358e8d8f62fa",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-istanbul",
+      "description": "We are hiring a QA Engineer to join our Analytics team. This full time role is hybrid and is designed for a mid-level professional. The position is based in Istanbul, Turkey. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Analytics",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-istanbul",
+      "date_posted": "2026-07-11T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "6809d96d-3a62-5b4b-8383-e4cb510d15c4",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-athens",
+      "description": "We are hiring a QA Engineer to join our Operations team. This full time role is remote and is designed for a senior professional. The position is based in Athens, Greece. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Operations",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-athens",
+      "date_posted": "2026-08-08T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "8c75b94b-8b3d-5a91-9db0-d273d81b5bd3",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Operations Associate",
+      "slug": "operations-associate-cairo-133",
+      "description": "We are hiring a Operations Associate to join our R&D team. This full time role is hybrid and is designed for a mid-level professional. The position is based in Cairo, Egypt. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "R&D",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-cairo-133",
+      "date_posted": "2026-08-16T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "5dfdb0e1-ec05-58b8-88bb-3485463825b6",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Technical Writer",
+      "slug": "technical-writer-bangalore",
+      "description": "We are hiring a Technical Writer to join our IT Support team. This full time role is on-site and is designed for a junior professional. The position is based in Bangalore, India. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "IT Support",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/technical-writer-bangalore",
+      "date_posted": "2026-08-31T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "3888fa4c-527c-5f11-89e0-bb9b5491fb1e",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Solutions Consultant",
+      "slug": "solutions-consultant-athens",
+      "description": "We are hiring a Solutions Consultant to join our Operations team. This full time role is hybrid and is designed for a mid-level professional. The position is based in Athens, Greece. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Operations",
+      "employment_type": "Full time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/solutions-consultant-athens",
+      "date_posted": "2026-08-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "163db23b-24cd-583d-aa8f-394edda70dfd",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-dubai",
+      "description": "We are hiring a QA Engineer to join our Customer Success team. This part time role is remote and is designed for a mid-level professional. The position is based in Dubai, United Arab Emirates. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Permanent",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-dubai",
+      "date_posted": "2026-07-12T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "2bce34ef-0526-5465-82a6-1e5f74e268af",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Software Engineer",
+      "slug": "software-engineer-boston",
+      "description": "We are hiring a Software Engineer to join our R&D team. This contract role is hybrid and is designed for a junior professional. The position is based in Boston, United States. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "R&D",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/software-engineer-boston",
+      "date_posted": "2026-08-20T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "62fc46a3-8eb1-5bd7-803f-b2b9f5a13037",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Customer Success Executive",
+      "slug": "customer-success-executive-dubai",
+      "description": "We are hiring a Customer Success Executive to join our Product team. This contract role is hybrid and is designed for a senior professional. The position is based in Dubai, United Arab Emirates. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "Product",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/customer-success-executive-dubai",
+      "date_posted": "2026-08-31T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "b8e58bfa-6811-597a-b09e-dde4599d8e36",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-london",
+      "description": "We are hiring a QA Engineer to join our Marketing team. This contract role is hybrid and is designed for a senior professional. The position is based in London, England, United Kingdom. Compensation: INR 8L–15L / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "department": "Marketing",
+      "employment_type": "Contract",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "INR 8L–15L / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-london",
+      "date_posted": "2026-08-28T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "cbf2d765-e248-5be9-a083-56fc663c9a3d",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Machine Learning Engineer",
+      "slug": "machine-learning-engineer-bangalore",
+      "description": "We are hiring a Machine Learning Engineer to join our Design team. This full time role is hybrid and is designed for a junior professional. The position is based in Bangalore, India. Compensation: USD 80K–120K / year. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "Design",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "USD 80K–120K / year",
+      "status": "open",
+      "application_url": "https://example.com/apply/machine-learning-engineer-bangalore",
+      "date_posted": "2026-08-17T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "2e1bb8c0-b42c-5d27-b43d-ca1866e50733",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Solutions Consultant",
+      "slug": "solutions-consultant-bangalore",
+      "description": "We are hiring a Solutions Consultant to join our IT Support team. This part time role is hybrid and is designed for a junior professional. The position is based in Bangalore, India. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Bangalore, India"
+      ],
+      "department": "IT Support",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/solutions-consultant-bangalore",
+      "date_posted": "2026-07-12T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "2310e53b-c1f5-5318-8e27-55bb98cc6648",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Mobile Developer (Flutter)",
+      "slug": "mobile-developer-(flutter)-hyderabad",
+      "description": "We are hiring a Mobile Developer (Flutter) to join our Customer Success team. This full time role is hybrid and is designed for a junior professional. The position is based in Hyderabad, India. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Hyderabad, India"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/mobile-developer-(flutter)-hyderabad",
+      "date_posted": "2026-08-20T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "d9967645-c765-5a02-9bda-5b18717275ec",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-istanbul-143",
+      "description": "We are hiring a Frontend Engineer to join our Product team. This contract role is on-site and is designed for a junior professional. The position is based in Istanbul, Turkey. Compensation: AED 8K–12K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Istanbul, Turkey"
+      ],
+      "department": "Product",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Temporary",
+      "salary_range": "AED 8K–12K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-istanbul-143",
+      "date_posted": "2026-07-07T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "977aa0d1-2fae-538f-8d89-4ee276a610f8",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "QA Engineer",
+      "slug": "qa-engineer-cairo",
+      "description": "We are hiring a QA Engineer to join our Customer Success team. This full time role is hybrid and is designed for a junior professional. The position is based in Cairo, Egypt. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Cairo, Egypt"
+      ],
+      "department": "Customer Success",
+      "employment_type": "Full time",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/qa-engineer-cairo",
+      "date_posted": "2026-08-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "f53a4fab-088f-5d54-9696-55aa8b4ed9c5",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Business Analyst",
+      "slug": "business-analyst-dubai",
+      "description": "We are hiring a Business Analyst to join our R&D team. This part time role is remote and is designed for a junior professional. The position is based in Dubai, United Arab Emirates. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Remote",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "R&D",
+      "employment_type": "Part time",
+      "experience_level": "Junior",
+      "job_type": "Permanent",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/business-analyst-dubai",
+      "date_posted": "2026-08-21T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "1f61a8f8-6109-5a07-89e8-3f3d3b7fa18c",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Operations Associate",
+      "slug": "operations-associate-berlin",
+      "description": "We are hiring a Operations Associate to join our Product team. This contract role is hybrid and is designed for a mid-level professional. The position is based in Berlin, Germany. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Berlin, Germany"
+      ],
+      "department": "Product",
+      "employment_type": "Contract",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/operations-associate-berlin",
+      "date_posted": "2026-08-29T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "253f850e-62c3-5cb4-b1e4-f3dc91737444",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Frontend Engineer",
+      "slug": "frontend-engineer-athens",
+      "description": "We are hiring a Frontend Engineer to join our Sales team. This part time role is on-site and is designed for a senior professional. The position is based in Athens, Greece. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "On-site",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "Sales",
+      "employment_type": "Part time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/frontend-engineer-athens",
+      "date_posted": "2026-07-17T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "f3d663d9-d20d-53f4-9c79-3b5eeaed2455",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Marketing Manager",
+      "slug": "marketing-manager-athens",
+      "description": "We are hiring a Marketing Manager to join our IT Support team. This full time role is hybrid and is designed for a senior professional. The position is based in Athens, Greece. Compensation: SAR 10K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Athens, Greece"
+      ],
+      "department": "IT Support",
+      "employment_type": "Full time",
+      "experience_level": "Senior",
+      "job_type": "Internship",
+      "salary_range": "SAR 10K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/marketing-manager-athens",
+      "date_posted": "2026-08-30T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "ad89880d-7b31-5c28-a6d4-b7194d37b9c3",
+      "company_id": "3c8c1f6f-5c6b-4c13-98f6-08e3a0c1b101",
+      "title": "Product Designer",
+      "slug": "product-designer-dubai",
+      "description": "We are hiring a Product Designer to join our R&D team. This contract role is hybrid and is designed for a junior professional. The position is based in Dubai, United Arab Emirates. Compensation: USD 4K–6K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Dubai, United Arab Emirates"
+      ],
+      "department": "R&D",
+      "employment_type": "Contract",
+      "experience_level": "Junior",
+      "job_type": "Internship",
+      "salary_range": "USD 4K–6K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/product-designer-dubai",
+      "date_posted": "2026-08-20T12:00:00Z",
+      "valid_through": null
+    },
+    {
+      "id": "f63cb939-9a95-5203-8790-da47bae48946",
+      "company_id": "6d7f1b2a-91db-43f1-8de9-2d4a51bb5202",
+      "title": "Solutions Consultant",
+      "slug": "solutions-consultant-boston",
+      "description": "We are hiring a Solutions Consultant to join our Engineering team. This part time role is hybrid and is designed for a mid-level professional. The position is based in Boston, United States. Compensation: AED 12K–18K / month. Join the team to help deliver high-impact work across our products and operations.",
+      "work_policy": "Hybrid",
+      "locations": [
+        "Boston, United States"
+      ],
+      "department": "Engineering",
+      "employment_type": "Part time",
+      "experience_level": "Mid-level",
+      "job_type": "Internship",
+      "salary_range": "AED 12K–18K / month",
+      "status": "open",
+      "application_url": "https://example.com/apply/solutions-consultant-boston",
+      "date_posted": "2026-08-21T12:00:00Z",
+      "valid_through": null
+    }
+  ]
+}
