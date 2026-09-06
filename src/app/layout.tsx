@@ -18,6 +18,7 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Careers Page Builder",
   description: "Multi-tenant ATS Careers Page Builder",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -27,9 +28,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         lang="en"
         className={`${playfair.variable} ${lato.variable} h-full antialiased`}
       >
-        <head>
-          <link rel="manifest" href="/manifest.json" />
-        </head>
         <body className="min-h-full flex flex-col font-sans">
           <PwaRegistry />
           {children}

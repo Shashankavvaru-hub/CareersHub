@@ -9,6 +9,6 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // For MVP, we are not doing complex offline caching.
-  // This minimal fetch handler satisfies the PWA installability requirement.
+  // Pass through fetch requests to satisfy Chrome's PWA installability requirements
+  event.respondWith(fetch(event.request));
 });
