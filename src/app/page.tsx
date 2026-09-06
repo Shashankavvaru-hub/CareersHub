@@ -2,6 +2,8 @@ import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import DigitalSerenity from "@/components/ui/digital-serenity-animated-landing-page";
 
+import { HoverFooter } from "@/components/ui/hover-footer";
+
 export default async function Home() {
   const { userId } = await auth();
 
@@ -10,5 +12,10 @@ export default async function Home() {
     redirect('/dashboard');
   }
 
-  return <DigitalSerenity />;
+  return (
+    <div className="bg-[#0A0F1E] min-h-screen">
+      <DigitalSerenity />
+      <HoverFooter />
+    </div>
+  );
 }
