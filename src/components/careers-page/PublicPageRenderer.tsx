@@ -68,27 +68,35 @@ export default function PublicPageRenderer({
   themeConfig,
   sections,
   jobs,
+  previewMode = false,
 }: {
   companyName: string;
   themeConfig: ThemeConfig;
   sections: PageSection[];
   jobs: Job[];
+  previewMode?: boolean;
 }) {
   const activeTheme = THEMES[themeConfig.presetTheme || 'minimal_light'] || THEMES['minimal_light'];
   const heroImage = themeConfig.heroImageUrl || 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=3000&auto=format&fit=crop';
   const embedUrl = getEmbedUrl(themeConfig.cultureVideoUrl);
 
+  // In preview mode the amber banner (≈36px) sits at top-0, so the nav
+  // must start below it. On the real public page the nav starts at top-0.
+  const navTopClass = previewMode ? 'top-[36px]' : 'top-0';
+  // Content needs padding-top = nav height (96px) + banner height when in preview
+  const contentPadding = previewMode ? 'pt-[132px]' : 'pt-24';
+
   return (
     <div className={`min-h-screen ${activeTheme.bgOuter} font-sans selection:bg-black selection:text-white transition-colors duration-300`}>
       
       {/* Navbar */}
-      <nav className={`fixed top-0 left-0 right-0 z-50 ${activeTheme.navBg} backdrop-blur-xl border-b border-black/5`}>
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <nav className={`fixed left-0 right-0 z-50 ${navTopClass} ${activeTheme.navBg} backdrop-blur-xl border-b border-black/5`}>
+        <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
           <div className="flex items-center gap-4">
             {themeConfig.logoUrl ? (
-              <img src={themeConfig.logoUrl} alt={`${companyName} logo`} className="h-10 object-contain" />
+              <img src={themeConfig.logoUrl} alt={`${companyName} logo`} className="h-12 object-contain" />
             ) : (
-              <div className={`h-10 w-10 rounded-xl ${activeTheme.accentBg} flex items-center justify-center`}>
+              <div className={`h-12 w-12 rounded-xl ${activeTheme.accentBg} flex items-center justify-center`}>
                 <span className="text-white font-bold text-xl">{companyName.charAt(0)}</span>
               </div>
             )}
@@ -102,8 +110,11 @@ export default function PublicPageRenderer({
         </div>
       </nav>
 
+      {/* Page content — offset below the fixed nav (and banner when in preview) */}
+      <div className={contentPadding}>
+
       {/* Hero Section */}
-      <header className="relative min-h-[80vh] flex flex-col justify-end px-6 pb-24 pt-40 bg-black">
+      <header className="relative min-h-[80vh] flex flex-col justify-end px-6 pb-24 bg-black">
         <div className="absolute inset-0 z-0">
           <img src={heroImage} alt="Hero background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/10"></div>
@@ -207,6 +218,7 @@ export default function PublicPageRenderer({
         </div>
       </footer>
 
+      </div>{/* end contentPadding wrapper */}
     </div>
   );
 }

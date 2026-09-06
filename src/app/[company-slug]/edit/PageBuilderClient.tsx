@@ -7,6 +7,7 @@ import { CSS } from '@dnd-kit/utilities';
 import { ThemeConfig, SectionData, saveDraftAction, publishAction } from './actions';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { MediaUploader } from '../../../components/ui/MediaUploader';
 
 // Sortable Item Component
 const THEME_PRESETS = [
@@ -173,8 +174,13 @@ export default function PageBuilderClient({
             <h2 className="text-3xl font-extralight text-slate-50 font-playfair mb-8">Brand Settings</h2>
             <div className="space-y-6">
               <div>
-                <label className="block text-xs font-mono tracking-wider uppercase text-slate-400 mb-2">Logo Image URL</label>
-                <input type="text" value={theme.logoUrl || ''} onChange={e => setTheme({...theme, logoUrl: e.target.value})} className="w-full bg-slate-900/50 border border-white/10 rounded-lg px-4 py-3 text-sm text-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-500" placeholder="https://..." />
+                <label className="block text-xs font-mono tracking-wider uppercase text-slate-400 mb-2">Company Logo</label>
+                <MediaUploader
+                  companyId={companyId}
+                  variant="logo"
+                  currentUrl={theme.logoUrl}
+                  onUpload={(url) => setTheme({ ...theme, logoUrl: url })}
+                />
               </div>
               <div>
                 <label className="block text-xs font-mono tracking-wider uppercase text-slate-400 mb-3">Color Theme</label>
@@ -207,8 +213,13 @@ export default function PageBuilderClient({
                 <textarea value={theme.heroSubtext || ''} onChange={e => setTheme({...theme, heroSubtext: e.target.value})} className="w-full bg-slate-900/50 border border-white/10 rounded-lg px-4 py-3 text-sm text-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-500 h-24" placeholder="We are building the future of..." />
               </div>
               <div>
-                <label className="block text-xs font-mono tracking-wider uppercase text-slate-400 mb-2">Hero Background Image URL</label>
-                <input type="text" value={theme.heroImageUrl || ''} onChange={e => setTheme({...theme, heroImageUrl: e.target.value})} className="w-full bg-slate-900/50 border border-white/10 rounded-lg px-4 py-3 text-sm text-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-500" placeholder="https://..." />
+                <label className="block text-xs font-mono tracking-wider uppercase text-slate-400 mb-2">Hero Background Image</label>
+                <MediaUploader
+                  companyId={companyId}
+                  variant="hero"
+                  currentUrl={theme.heroImageUrl}
+                  onUpload={(url) => setTheme({ ...theme, heroImageUrl: url })}
+                />
               </div>
               <div>
                 <label className="block text-xs font-mono tracking-wider uppercase text-slate-400 mb-2">Culture Video URL (YouTube/Vimeo)</label>

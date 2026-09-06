@@ -52,15 +52,13 @@ export default async function PreviewPage({ params }: { params: Promise<{ "compa
         <span>Not visible to public</span>
       </div>
       
-      {/* Push content down so the fixed preview banner doesn't cover the nav */}
-      <div className="pt-[28px]">
-        <PublicPageRenderer 
+      <PublicPageRenderer 
           companyName={company.name} 
           themeConfig={draftRevision.themeConfig as any} 
           sections={sections} 
-          jobs={openJobs} 
+          jobs={openJobs}
+          previewMode={true}
         />
-      </div>
     </>
   );
 }

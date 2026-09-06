@@ -162,7 +162,7 @@ export default function DigitalSerenity() {
         <div className="relative z-10 min-h-screen flex flex-col justify-between items-center px-6 py-10 sm:px-8 sm:py-12 md:px-16 md:py-20">
           <div className="text-center w-full flex justify-between items-center">
             <h2 className="text-xs sm:text-sm font-mono font-light text-slate-300 tracking-[0.2em] opacity-80 flex gap-2">
-              <span className="font-bold text-white tracking-widest font-playfair uppercase">Whitecarrot</span>
+              <span className="font-bold text-[#5636E6] tracking-widest font-playfair uppercase">Whitecarrot</span>
             </h2>
             <div className="flex gap-4">
               <Link href="/login" className="text-sm font-mono tracking-wider opacity-80 hover:opacity-100 transition-opacity">
