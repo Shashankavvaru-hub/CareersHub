@@ -5,7 +5,7 @@ import { eq, isNull, and } from 'drizzle-orm';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Use the environment variable if set, otherwise fallback to localhost for development
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+  const baseUrl = process.env.APP_URL || 'https://careershub-blond.vercel.app';
 
   // Fetch all active companies to generate their public careers page URLs
   const activeCompanies = await db.select()
