@@ -1,12 +1,14 @@
 "use client";
 
 import React, { useState, useMemo } from 'react';
+import { Filter } from 'lucide-react';
 import type { Job } from '../../db/schema';
 
 export default function JobBoard({ jobs, activeTheme }: { jobs: Job[], activeTheme: any }) {
   const [search, setSearch] = useState('');
   const [locationFilter, setLocationFilter] = useState('');
   const [typeFilter, setTypeFilter] = useState('');
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const JOBS_PER_PAGE = 5;
 
@@ -48,32 +50,74 @@ export default function JobBoard({ jobs, activeTheme }: { jobs: Job[], activeThe
   return (
     <div className="w-full">
       {/* Filters */}
-      <div className="flex flex-col md:flex-row gap-4 mb-8 bg-black/5 p-4 md:p-2 rounded-2xl md:rounded-full shadow-sm">
-        <input 
-          type="text" 
-          placeholder="Search roles..." 
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          className="flex-1 px-6 py-3 bg-transparent focus:outline-none text-slate-800 placeholder-slate-400 font-medium"
-        />
-        <div className="w-px bg-slate-200 hidden md:block"></div>
-        <select 
-          value={locationFilter} 
-          onChange={(e) => setLocationFilter(e.target.value)}
-          className="md:w-48 px-4 py-3 bg-transparent focus:outline-none text-slate-600 appearance-none cursor-pointer"
-        >
-          <option value="">All Locations</option>
-          {locations.map(l => <option key={l} value={l}>{l}</option>)}
-        </select>
-        <div className="w-px bg-slate-200 hidden md:block"></div>
-        <select 
-          value={typeFilter} 
-          onChange={(e) => setTypeFilter(e.target.value)}
-          className="md:w-48 px-4 py-3 bg-transparent focus:outline-none text-slate-600 appearance-none cursor-pointer"
-        >
-          <option value="">All Types</option>
-          {jobTypes.map(t => <option key={t} value={t}>{t}</option>)}
-        </select>
+      <div className="flex flex-col gap-2 mb-8">
+        <div className="flex flex-row items-center gap-2 bg-black/5 p-2 rounded-full shadow-sm">
+          <input 
+            type="text" 
+            placeholder="Search roles..." 
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="flex-1 w-0 px-4 md:px-6 py-2 md:py-3 bg-transparent focus:outline-none text-slate-800 placeholder-slate-400 font-medium"
+          />
+          
+          <button 
+            onClick={() => setShowMobileFilters(!showMobileFilters)}
+            className={`md:hidden p-2 rounded-xl transition-colors shrink-0 ${showMobileFilters ? activeTheme.accentBg + ' text-white' : 'bg-white text-slate-600 shadow-sm border border-slate-200'}`}
+          >
+            <Filter size={20} />
+          </button>
+
+          <div className="w-px h-8 bg-slate-200 hidden md:block"></div>
+          
+          <select 
+            value={locationFilter} 
+            onChange={(e) => setLocationFilter(e.target.value)}
+            className="hidden md:block md:w-48 px-4 py-3 bg-transparent focus:outline-none text-slate-600 appearance-none cursor-pointer"
+          >
+            <option value="">All Locations</option>
+            {locations.map(l => <option key={l} value={l}>{l}</option>)}
+          </select>
+          
+          <div className="w-px h-8 bg-slate-200 hidden md:block"></div>
+          
+          <select 
+            value={typeFilter} 
+            onChange={(e) => setTypeFilter(e.target.value)}
+            className="hidden md:block md:w-48 px-4 py-3 bg-transparent focus:outline-none text-slate-600 appearance-none cursor-pointer"
+          >
+            <option value="">All Types</option>
+            {jobTypes.map(t => <option key={t} value={t}>{t}</option>)}
+          </select>
+        </div>
+
+        {/* Mobile Expanded Filters */}
+        {showMobileFilters && (
+          <div className="md:hidden flex flex-col gap-3 p-5 bg-black/5 rounded-2xl shadow-sm animate-in fade-in slide-in-from-top-2">
+            <div className="flex flex-col gap-2">
+              <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Location</label>
+              <select 
+                value={locationFilter} 
+                onChange={(e) => setLocationFilter(e.target.value)}
+                className="w-full px-4 py-3 bg-white rounded-xl focus:outline-none text-slate-700 shadow-sm border border-slate-200 appearance-none"
+              >
+                <option value="">All Locations</option>
+                {locations.map(l => <option key={l} value={l}>{l}</option>)}
+              </select>
+            </div>
+            
+            <div className="flex flex-col gap-2">
+              <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Job Type</label>
+              <select 
+                value={typeFilter} 
+                onChange={(e) => setTypeFilter(e.target.value)}
+                className="w-full px-4 py-3 bg-white rounded-xl focus:outline-none text-slate-700 shadow-sm border border-slate-200 appearance-none"
+              >
+                <option value="">All Types</option>
+                {jobTypes.map(t => <option key={t} value={t}>{t}</option>)}
+              </select>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Results */}

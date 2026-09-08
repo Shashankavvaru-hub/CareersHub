@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Job, PageSection } from '../../db/schema';
 import JobBoard from './JobBoard';
+import { PublicHeader } from './PublicHeader';
 
 type ThemeConfig = {
   presetTheme?: string;
@@ -89,29 +90,15 @@ export default function PublicPageRenderer({
   return (
     <div className={`min-h-screen ${activeTheme.bgOuter} font-sans selection:bg-black selection:text-white transition-colors duration-300`}>
       
-      {/* Navbar */}
-      <nav className={`fixed left-0 right-0 z-50 ${navTopClass} ${activeTheme.navBg} backdrop-blur-xl border-b border-black/5`}>
-        <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            {themeConfig.logoUrl ? (
-              <img src={themeConfig.logoUrl} alt={`${companyName} logo`} className="h-12 object-contain" />
-            ) : (
-              <div className={`h-12 w-12 rounded-xl ${activeTheme.accentBg} flex items-center justify-center`}>
-                <span className="text-white font-bold text-xl">{companyName.charAt(0)}</span>
-              </div>
-            )}
-            <span className={`font-bold text-xl ${activeTheme.textColor} tracking-tight`}>{companyName}</span>
-          </div>
-          <div className="flex items-center gap-6">
-            <a href="#jobs" className={`text-sm font-semibold ${activeTheme.textMuted} hover:${activeTheme.textColor} transition-colors`}>
-              Open Positions
-            </a>
-          </div>
-        </div>
-      </nav>
-
-      {/* Page content — offset below the fixed nav (and banner when in preview) */}
-      <div className={contentPadding}>
+      <PublicHeader 
+        companyName={companyName}
+        logoUrl={themeConfig.logoUrl}
+        sections={sections}
+        previewMode={previewMode}
+        activeTheme={activeTheme}
+      />
+      
+      <div>
 
       {/* Hero Section */}
       <header className="relative min-h-[80vh] flex flex-col justify-end px-6 pb-24 bg-black">
@@ -165,8 +152,8 @@ export default function PublicPageRenderer({
           return (
             <section 
               key={section.id} 
-              id={section.type === 'jobs' ? 'jobs' : `section-${section.id}`}
-              className={`w-full relative overflow-hidden ${bgClass}`}
+              id={section.type}
+              className={`w-full relative overflow-hidden ${bgClass} scroll-mt-24`}
             >
               {/* Top border line */}
               <div className="absolute top-0 left-6 right-6 h-px bg-black/5"></div>
