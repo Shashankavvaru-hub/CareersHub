@@ -17,7 +17,7 @@ trigger: always_on
 
 Use the approved technology direction:
 
-* Next.js / React.
+* Next.js.
 * Node.js through the Next.js server environment.
 * PostgreSQL.
 * Managed authentication.

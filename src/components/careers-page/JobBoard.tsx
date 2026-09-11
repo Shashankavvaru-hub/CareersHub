@@ -51,7 +51,7 @@ export default function JobBoard({ jobs, activeTheme }: { jobs: Job[], activeThe
     <div className="w-full">
       {/* Filters */}
       <div className="flex flex-col gap-2 mb-8">
-        <div className="flex flex-row items-center gap-2 bg-black/5 p-2 rounded-full shadow-sm">
+        <div className="flex flex-row items-center gap-2 bg-white p-2 rounded-full shadow-md ring-1 ring-slate-900/5">
           <input 
             type="text" 
             placeholder="Search roles..." 
@@ -92,13 +92,13 @@ export default function JobBoard({ jobs, activeTheme }: { jobs: Job[], activeThe
 
         {/* Mobile Expanded Filters */}
         {showMobileFilters && (
-          <div className="md:hidden flex flex-col gap-3 p-5 bg-black/5 rounded-2xl shadow-sm animate-in fade-in slide-in-from-top-2">
+          <div className="md:hidden flex flex-col gap-3 p-5 bg-white rounded-2xl shadow-md ring-1 ring-slate-900/5 animate-in fade-in slide-in-from-top-2">
             <div className="flex flex-col gap-2">
               <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Location</label>
               <select 
                 value={locationFilter} 
                 onChange={(e) => setLocationFilter(e.target.value)}
-                className="w-full px-4 py-3 bg-white rounded-xl focus:outline-none text-slate-700 shadow-sm border border-slate-200 appearance-none"
+                className="w-full px-4 py-3 bg-slate-50 rounded-xl focus:outline-none text-slate-700 shadow-sm border border-slate-200 appearance-none"
               >
                 <option value="">All Locations</option>
                 {locations.map(l => <option key={l} value={l}>{l}</option>)}
@@ -110,7 +110,7 @@ export default function JobBoard({ jobs, activeTheme }: { jobs: Job[], activeThe
               <select 
                 value={typeFilter} 
                 onChange={(e) => setTypeFilter(e.target.value)}
-                className="w-full px-4 py-3 bg-white rounded-xl focus:outline-none text-slate-700 shadow-sm border border-slate-200 appearance-none"
+                className="w-full px-4 py-3 bg-slate-50 rounded-xl focus:outline-none text-slate-700 shadow-sm border border-slate-200 appearance-none"
               >
                 <option value="">All Types</option>
                 {jobTypes.map(t => <option key={t} value={t}>{t}</option>)}

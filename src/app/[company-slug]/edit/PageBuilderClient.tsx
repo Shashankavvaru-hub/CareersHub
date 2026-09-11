@@ -258,12 +258,15 @@ export default function PageBuilderClient({
             <div className="border-t border-white/10 pt-8">
               <h3 className="text-xs font-mono tracking-wider uppercase text-slate-400 mb-4">Add a new section</h3>
               <div className="flex flex-wrap gap-3">
-                {[
+                {sections.length < 10 && [
                   { type: 'about', label: 'About Us' },
                   { type: 'life_at_company', label: 'Life at Company' },
+                  { type: 'our_values', label: 'Our Values' },
+                  { type: 'where_we_work', label: 'Where We Work' },
+                  { type: 'perks', label: 'Perks & Benefits' },
                   { type: 'jobs', label: 'Open Jobs' },
                   { type: 'custom_text', label: 'Custom Text' }
-                ].filter(s => !sections.some(existing => existing.type === s.type)).map(s => (
+                ].filter(s => s.type === 'custom_text' || !sections.some(existing => existing.type === s.type)).map(s => (
                   <button 
                     key={s.type}
                     onClick={() => addSection(s.type as SectionData['type'])} 
@@ -272,8 +275,8 @@ export default function PageBuilderClient({
                     + {s.label}
                   </button>
                 ))}
-                {sections.length >= 4 && (
-                  <p className="text-sm text-slate-500 italic w-full">All available section types have been added.</p>
+                {sections.length >= 10 && (
+                  <p className="text-sm text-slate-500 italic w-full">Maximum limit of 10 sections reached.</p>
                 )}
               </div>
             </div>

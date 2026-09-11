@@ -152,7 +152,7 @@ export default function PublicPageRenderer({
           return (
             <section 
               key={section.id} 
-              id={section.type}
+              id={`section-${section.id}`}
               className={`w-full relative overflow-hidden ${bgClass} scroll-mt-24`}
             >
               {/* Top border line */}
@@ -164,7 +164,8 @@ export default function PublicPageRenderer({
                   {/* Section Title (Left Side on Desktop) */}
                   <div className="md:w-1/3 shrink-0">
                     <p className={`text-sm font-bold uppercase tracking-[0.2em] mb-4 ${activeTheme.accentText}`}>
-                      {String(index + 1).padStart(2, '0')} — {section.type.replace(/_/g, ' ')}
+                      {String(index + 1).padStart(2, '0')}
+                      {section.type !== 'custom_text' && ` — ${section.type.replace(/_/g, ' ')}`}
                     </p>
                     <h2 className={`text-[clamp(2.5rem,5vw,4rem)] font-bold leading-[0.9] tracking-tighter ${activeTheme.textColor}`}>
                       {section.title}

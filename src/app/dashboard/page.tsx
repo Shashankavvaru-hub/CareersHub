@@ -5,6 +5,7 @@ import { getCurrentUser } from '../../lib/auth/current-user';
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
 import { ApplicationShell } from '../../components/ApplicationShell';
+import { StaggerContainer, FadeInItem } from '../../components/ui/staggered-fade-in';
 
 export default async function DashboardPage() {
   const user = await getCurrentUser();
@@ -26,12 +27,12 @@ export default async function DashboardPage() {
 
   return (
     <ApplicationShell>
-      <div className="p-8 lg:px-12 w-full">
+      <StaggerContainer className="p-8 lg:px-12 w-full">
         
         {/* Hero Section */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 mb-20 items-center">
           {/* Left Column */}
-          <div className="flex flex-col justify-center">
+          <FadeInItem className="flex flex-col justify-center">
             <span className="text-xs font-mono font-bold tracking-widest text-slate-400 uppercase mb-4 block">Recruiter Dashboard</span>
             <h1 className="text-5xl lg:text-6xl font-playfair font-extralight tracking-tight text-slate-50 mb-8 leading-[1.1]">
               Great hires start with great clarity.
@@ -40,12 +41,12 @@ export default async function DashboardPage() {
               <p className="text-lg text-slate-300 italic mb-2">"I hire people brighter than me and I get out of their way."</p>
               <p className="text-sm font-mono text-slate-500 uppercase tracking-widest">— Lee Iacocca</p>
             </div>
-          </div>
+          </FadeInItem>
 
           {/* Right Column */}
-          <div className="grid grid-rows-2 gap-4">
+          <FadeInItem className="grid grid-rows-2 gap-4">
             {/* Stat Card 1 */}
-            <div className="p-8 border border-white/10 rounded-3xl bg-black/40 backdrop-blur-md flex items-center justify-between">
+            <div className="p-8 border border-white/10 hover:border-white/20 rounded-3xl bg-black/40 backdrop-blur-md flex items-center justify-between transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-2xl active:scale-[0.98] motion-reduce:transition-none motion-reduce:transform-none">
               <div>
                 <p className="text-xs font-mono font-bold tracking-widest uppercase text-slate-400 mb-2">Total Companies</p>
                 <p className="text-5xl font-light text-slate-50">{totalCompanies}</p>
@@ -56,7 +57,7 @@ export default async function DashboardPage() {
             </div>
             
             {/* Stat Card 2 */}
-            <div className="p-8 border border-white/10 rounded-3xl bg-black/40 backdrop-blur-md flex items-center justify-between">
+            <div className="p-8 border border-white/10 hover:border-white/20 rounded-3xl bg-black/40 backdrop-blur-md flex items-center justify-between transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-2xl active:scale-[0.98] motion-reduce:transition-none motion-reduce:transform-none">
               <div>
                 <p className="text-xs font-mono font-bold tracking-widest uppercase text-slate-400 mb-2">Admin Access</p>
                 <p className="text-5xl font-light text-slate-50">{adminAccessCount}</p>
@@ -65,13 +66,16 @@ export default async function DashboardPage() {
                 <span className="text-2xl opacity-50">🔑</span>
               </div>
             </div>
-          </div>
+          </FadeInItem>
         </div>
 
-        <h2 className="text-3xl font-extralight font-playfair text-slate-50 tracking-tight mb-10">Your Companies</h2>
+        <FadeInItem>
+          <h2 className="text-3xl font-extralight font-playfair text-slate-50 tracking-tight mb-10">Your Companies</h2>
+        </FadeInItem>
         <div className="grid gap-8 lg:grid-cols-2">
           {memberships.map((m) => (
-            <div key={m.company.id} className="p-10 sm:p-12 border border-white/10 rounded-3xl shadow-[0_0_40px_rgba(0,0,0,0.5)] bg-black/40 backdrop-blur-md transition-all hover:border-white/20">
+            <FadeInItem key={m.company.id}>
+              <div className="p-10 sm:p-12 border border-white/10 hover:border-white/20 rounded-3xl shadow-[0_0_40px_rgba(0,0,0,0.5)] hover:shadow-[0_10px_50px_rgba(0,0,0,0.6)] bg-black/40 backdrop-blur-md transition-all duration-300 ease-out hover:-translate-y-1 active:scale-[0.98] motion-reduce:transition-none motion-reduce:transform-none">
               <h3 className="text-3xl font-light text-slate-50 mb-3">{m.company.name}</h3>
               <p className="text-sm font-mono tracking-wider uppercase text-slate-400 mb-10">Role: <span className="font-semibold text-slate-300 capitalize">{m.role}</span></p>
               <div className="flex gap-4">
@@ -83,9 +87,10 @@ export default async function DashboardPage() {
                 </Link>
               </div>
             </div>
+            </FadeInItem>
           ))}
         </div>
-      </div>
+      </StaggerContainer>
     </ApplicationShell>
   );
 }

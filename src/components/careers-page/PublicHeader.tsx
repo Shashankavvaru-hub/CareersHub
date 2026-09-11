@@ -22,11 +22,11 @@ export function PublicHeader({
   const [open, setOpen] = React.useState(false);
   const scrolled = useScroll(10);
 
-  // Dynamically generate links based on the sections the recruiter added
   const links = sections.map((section) => ({
-    label: section.type === 'jobs' ? 'Open Positions' : section.type.replace(/_/g, ' '),
-    // We use the section type as the HTML ID so anchor links work
-    href: `#${section.type}`,
+    id: section.id,
+    label: section.title,
+    // We use the section id as the HTML ID so anchor links are unique
+    href: `#section-${section.id}`,
   }));
 
   React.useEffect(() => {
@@ -78,9 +78,9 @@ export function PublicHeader({
 
         {/* Desktop Links */}
         <div className="hidden items-center gap-1 md:flex">
-          {links.map((link, i) => (
+          {links.map((link) => (
             <a 
-              key={i} 
+              key={link.id} 
               className="px-4 py-2 text-sm font-medium text-white/80 hover:text-white transition-colors capitalize" 
               href={link.href}
             >
@@ -120,7 +120,7 @@ export function PublicHeader({
           <div className="flex flex-col gap-y-6">
             {links.map((link) => (
               <a
-                key={link.label}
+                key={link.id}
                 className="text-2xl font-light text-white hover:text-white/80 transition-colors capitalize border-b border-white/10 pb-4"
                 href={link.href}
                 onClick={() => setOpen(false)} // CLOSE MENU ON CLICK
