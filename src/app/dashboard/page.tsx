@@ -2,7 +2,6 @@ import { db } from '../../db';
 import * as schema from '../../db/schema';
 import { eq } from 'drizzle-orm';
 import { getCurrentUser } from '../../lib/auth/current-user';
-import { redirect } from 'next/navigation';
 import Link from 'next/link';
 import { ApplicationShell } from '../../components/ApplicationShell';
 import { StaggerContainer, FadeInItem } from '../../components/ui/staggered-fade-in';
@@ -19,7 +18,17 @@ export default async function DashboardPage() {
   .where(eq(schema.companyMemberships.userId, user.id));
 
   if (memberships.length === 0) {
-    redirect('/onboarding');
+    return (
+      <ApplicationShell>
+        <div className="flex flex-col items-center justify-center min-h-[60vh] text-center px-4">
+          <span className="text-4xl mb-6">🔒</span>
+          <h1 className="text-3xl font-playfair font-light text-slate-50 mb-4">You are not authorized</h1>
+          <p className="text-slate-400 max-w-md">
+            Your account is not associated with any company. This platform requires an administrative invite to access the recruiter dashboard.
+          </p>
+        </div>
+      </ApplicationShell>
+    );
   }
 
   const totalCompanies = memberships.length;
