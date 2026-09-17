@@ -2,6 +2,7 @@
 
 import React, { useRef, useState } from 'react';
 import { generateUploadSignature, UploadVariant } from '../../lib/media/cloudinary-signature';
+import { saveMediaAssetRecord } from '../../lib/media/actions';
 
 const VARIANT_META = {
   logo: {
@@ -83,6 +84,24 @@ export function MediaUploader({ companyId, variant, currentUrl, onUpload }: Medi
 
       const data = await res.json();
       const url: string = data.secure_url;
+
+      // Save to database
+      try {
+        await saveMediaAssetRecord(companyId, {
+          providerAssetId: data.asset_id || data.public_id,
+          publicId: data.public_id,
+          resourceType: data.resource_type,
+          mimeType: data.format ? `${data.resource_type}/${data.format}` : undefined,
+          secureUrl: url,
+          width: data.width,
+          height: data.height,
+          bytes: data.bytes,
+        });
+      } catch (dbErr) {
+        console.error('Failed to save media asset record', dbErr);
+        // We can still proceed with the upload URL even if DB tracking fails,
+        // or we could throw. But logging is safer for MVP UX.
+      }
 
       setPreview(url);
       onUpload(url);
