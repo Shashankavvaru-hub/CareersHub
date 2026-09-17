@@ -133,34 +133,38 @@ export default function PageBuilderClient({
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8 font-sans">
+    <div className="max-w-6xl mx-auto p-6 pb-28 lg:pb-6 grid grid-cols-1 lg:grid-cols-12 gap-8 font-sans">
       
       {/* Sidebar Controls */}
       <div className="lg:col-span-3 flex flex-col gap-2">
-        <h1 className="text-2xl font-light text-slate-50 font-playfair mb-6 tracking-tight">Builder</h1>
+        <h1 className="text-2xl font-light text-slate-50 font-playfair mb-2 lg:mb-6 tracking-tight">Builder</h1>
         
-        <button 
-          onClick={() => { setActiveTab('branding'); setEditingSectionId(null); }}
-          className={`text-left px-4 py-3 rounded-xl transition-all font-medium text-sm ${activeTab === 'branding' && !editingSectionId ? 'bg-slate-100 text-slate-900 shadow-[0_0_15px_rgba(255,255,255,0.1)]' : 'text-slate-400 hover:bg-slate-900 hover:text-slate-200'}`}
-        >
-          Theme & Branding
-        </button>
-        <button 
-          onClick={() => { setActiveTab('sections'); setEditingSectionId(null); }}
-          className={`text-left px-4 py-3 rounded-xl transition-all font-medium text-sm ${activeTab === 'sections' || editingSectionId ? 'bg-slate-100 text-slate-900 shadow-[0_0_15px_rgba(255,255,255,0.1)]' : 'text-slate-400 hover:bg-slate-900 hover:text-slate-200'}`}
-        >
-          Content Sections
-        </button>
-
-        <div className="mt-12 flex flex-col gap-3">
-          <button onClick={handleSaveDraft} disabled={isPending} className="w-full py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-sm font-medium transition-colors border border-slate-700 disabled:opacity-50">
-            {isPending ? 'Saving...' : 'Save Draft'}
+        {/* Tabs - Horizontal on mobile, vertical on desktop */}
+        <div className="flex flex-row overflow-x-auto lg:flex-col gap-2 pb-2 lg:pb-0 hide-scrollbar -mx-6 px-6 lg:mx-0 lg:px-0">
+          <button 
+            onClick={() => { setActiveTab('branding'); setEditingSectionId(null); }}
+            className={`flex-1 text-center lg:text-left px-4 py-3 rounded-xl transition-all font-medium text-sm whitespace-nowrap ${activeTab === 'branding' && !editingSectionId ? 'bg-slate-100 text-slate-900 shadow-[0_0_15px_rgba(255,255,255,0.1)]' : 'text-slate-400 hover:bg-slate-900 hover:text-slate-200'}`}
+          >
+            Theme & Branding
           </button>
-          <Link href={`/${companySlug}/preview`} target="_blank" className="w-full py-2.5 bg-slate-900/50 hover:bg-slate-900 text-slate-300 rounded-xl text-sm font-medium transition-colors border border-slate-800 text-center block">
-            Preview Draft
+          <button 
+            onClick={() => { setActiveTab('sections'); setEditingSectionId(null); }}
+            className={`flex-1 text-center lg:text-left px-4 py-3 rounded-xl transition-all font-medium text-sm whitespace-nowrap ${activeTab === 'sections' || editingSectionId ? 'bg-slate-100 text-slate-900 shadow-[0_0_15px_rgba(255,255,255,0.1)]' : 'text-slate-400 hover:bg-slate-900 hover:text-slate-200'}`}
+          >
+            Content Sections
+          </button>
+        </div>
+
+        {/* Action Buttons - Sticky footer on mobile, regular stacked on desktop */}
+        <div className="fixed bottom-0 left-0 right-0 p-4 bg-slate-950/90 backdrop-blur-xl border-t border-white/10 z-50 flex flex-row lg:static lg:bg-transparent lg:p-0 lg:border-none lg:z-auto lg:flex-col gap-3 mt-auto lg:mt-12">
+          <button onClick={handleSaveDraft} disabled={isPending} className="flex-1 lg:w-full py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-sm font-medium transition-colors border border-slate-700 disabled:opacity-50">
+            {isPending ? 'Saving...' : <span className="hidden lg:inline">Save Draft</span>}<span className="lg:hidden">{isPending ? '' : 'Save'}</span>
+          </button>
+          <Link href={`/${companySlug}/preview`} target="_blank" className="flex-1 lg:w-full py-2.5 bg-slate-900/50 hover:bg-slate-900 text-slate-300 rounded-xl text-sm font-medium transition-colors border border-slate-800 text-center block leading-loose lg:leading-normal">
+            <span className="hidden lg:inline">Preview Draft</span><span className="lg:hidden">Preview</span>
           </Link>
-          <button onClick={handlePublish} disabled={isPending} className="w-full py-2.5 bg-white hover:bg-slate-200 text-slate-900 rounded-xl text-sm font-bold transition-all shadow-[0_0_15px_rgba(255,255,255,0.2)] disabled:opacity-50 mt-4">
-            {isPending ? 'Publishing...' : 'Publish to Live'}
+          <button onClick={handlePublish} disabled={isPending} className="flex-1 lg:w-full py-2.5 bg-white hover:bg-slate-200 text-slate-900 rounded-xl text-sm font-bold transition-all shadow-[0_0_15px_rgba(255,255,255,0.2)] disabled:opacity-50 lg:mt-4">
+            {isPending ? 'Publishing...' : <span className="hidden lg:inline">Publish to Live</span>}<span className="lg:hidden">{isPending ? '' : 'Publish'}</span>
           </button>
         </div>
       </div>
