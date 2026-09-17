@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Lato } from "next/font/google";
 import { ClerkProvider } from '@clerk/nextjs';
 import { PwaRegistry } from '../components/PwaRegistry';
+import { GlobalToaster } from '../components/ui/toast';
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       >
         <body className="min-h-full flex flex-col font-sans">
           <PwaRegistry />
+          <GlobalToaster />
           {children}
         </body>
       </html>

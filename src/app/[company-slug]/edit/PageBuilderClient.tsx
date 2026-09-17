@@ -8,6 +8,7 @@ import { ThemeConfig, SectionData, saveDraftAction, publishAction } from './acti
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { MediaUploader } from '../../../components/ui/MediaUploader';
+import { showToast } from '../../../components/ui/toast';
 
 // Sortable Item Component
 const THEME_PRESETS = [
@@ -111,10 +112,10 @@ export default function PageBuilderClient({
     startTransition(async () => {
       try {
         await saveDraftAction(companyId, theme, sections);
-        alert("Draft saved successfully!");
+        showToast({ title: 'Draft Saved', message: 'Your changes have been saved.', variant: 'success' });
         router.refresh();
       } catch (err: any) {
-        alert(err.message || "Failed to save draft");
+        showToast({ title: 'Error', message: err.message || "Failed to save draft", variant: 'error' });
       }
     });
   };
@@ -124,10 +125,10 @@ export default function PageBuilderClient({
     startTransition(async () => {
       try {
         await publishAction(companyId, companySlug);
-        alert("Page published successfully!");
+        showToast({ title: 'Published', message: 'Page published successfully!', variant: 'success' });
         router.refresh();
       } catch (err: any) {
-        alert(err.message || "Failed to publish page");
+        showToast({ title: 'Error', message: err.message || "Failed to publish page", variant: 'error' });
       }
     });
   };
