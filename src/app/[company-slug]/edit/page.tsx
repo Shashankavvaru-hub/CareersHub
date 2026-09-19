@@ -17,7 +17,8 @@ export default async function EditPage({ params }: { params: Promise<{ "company-
     notFound();
   }
 
-  await requireCompanyRole(company.id, ['owner', 'admin', 'editor']);
+  const membership = await requireCompanyRole(company.id, ['owner', 'admin', 'editor']);
+  const userId = membership.userId;
 
   // 1. Get or Create Careers Page
   let [careersPage] = await db.select().from(schema.careersPages)
@@ -30,11 +31,12 @@ export default async function EditPage({ params }: { params: Promise<{ "company-
     }).returning();
   }
 
-  // 2. Get or Create Draft Revision
+  // 2. Get or Create Draft Revision for this specific user
   let [draftRevision] = await db.select().from(schema.pageRevisions)
     .where(and(
       eq(schema.pageRevisions.careersPageId, careersPage.id),
-      eq(schema.pageRevisions.status, 'draft')
+      eq(schema.pageRevisions.status, 'draft'),
+      eq(schema.pageRevisions.createdBy, userId)
     ));
 
   if (!draftRevision) {
@@ -44,16 +46,43 @@ export default async function EditPage({ params }: { params: Promise<{ "company-
       .where(eq(schema.pageRevisions.careersPageId, careersPage.id));
     const nextVersion = (maxVersionRow?.maxVersion ?? 0) + 1;
 
+    let themeConfigToCopy = {};
+    let sectionsToCopy: any[] = [];
+
+    // Branch off the live page if it exists
+    if (careersPage.publishedRevisionId) {
+      const [publishedRevision] = await db.select().from(schema.pageRevisions)
+        .where(eq(schema.pageRevisions.id, careersPage.publishedRevisionId));
+      
+      if (publishedRevision) {
+        themeConfigToCopy = publishedRevision.themeConfig || {};
+        sectionsToCopy = await db.select().from(schema.pageSections)
+          .where(eq(schema.pageSections.revisionId, publishedRevision.id))
+          .orderBy(schema.pageSections.displayOrder);
+      }
+    }
+
+    // Insert the new draft for this user
     [draftRevision] = await db.insert(schema.pageRevisions).values({
       careersPageId: careersPage.id,
       version: nextVersion,
       status: 'draft',
-      themeConfig: {},
+      createdBy: userId,
+      themeConfig: themeConfigToCopy,
     }).returning();
 
-    await db.update(schema.careersPages)
-      .set({ currentDraftRevisionId: draftRevision.id })
-      .where(eq(schema.careersPages.id, careersPage.id));
+    // Copy sections into the new draft
+    if (sectionsToCopy.length > 0) {
+      await db.insert(schema.pageSections).values(
+        sectionsToCopy.map(sec => ({
+          revisionId: draftRevision.id,
+          type: sec.type,
+          title: sec.title,
+          content: sec.content,
+          displayOrder: sec.displayOrder,
+        }))
+      );
+    }
   }
 
   // 3. Fetch Sections for the draft

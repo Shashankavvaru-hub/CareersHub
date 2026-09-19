@@ -57,7 +57,8 @@ export async function saveDraftAction(
   sections: SectionData[]
 ) {
   // 1. Authorize
-  await requireCompanyRole(companyId, ['owner', 'admin', 'editor']);
+  const membership = await requireCompanyRole(companyId, ['owner', 'admin', 'editor']);
+  const userId = membership.userId;
 
   // 2. Get Careers Page
   const [careersPage] = await db.select()
@@ -68,12 +69,13 @@ export async function saveDraftAction(
     throw new Error("Careers page not found. Please reload the page.");
   }
 
-  // 3. Get Draft Revision
+  // 3. Get Draft Revision for this specific user
   let [draftRevision] = await db.select()
     .from(schema.pageRevisions)
     .where(and(
       eq(schema.pageRevisions.careersPageId, careersPage.id),
-      eq(schema.pageRevisions.status, 'draft')
+      eq(schema.pageRevisions.status, 'draft'),
+      eq(schema.pageRevisions.createdBy, userId)
     ));
 
   if (!draftRevision) {
@@ -114,7 +116,8 @@ export async function saveDraftAction(
 
 export async function publishAction(companyId: string, companySlug: string) {
   // 1. Authorize
-  await requireCompanyRole(companyId, ['owner', 'admin', 'editor']);
+  const membership = await requireCompanyRole(companyId, ['owner', 'admin', 'editor']);
+  const userId = membership.userId;
 
   // 2. Get Careers Page
   const [careersPage] = await db.select()
@@ -125,12 +128,13 @@ export async function publishAction(companyId: string, companySlug: string) {
     throw new Error("Careers page not found.");
   }
 
-  // 3. Get Draft Revision
+  // 3. Get Draft Revision for this specific user
   const [draftRevision] = await db.select()
     .from(schema.pageRevisions)
     .where(and(
       eq(schema.pageRevisions.careersPageId, careersPage.id),
-      eq(schema.pageRevisions.status, 'draft')
+      eq(schema.pageRevisions.status, 'draft'),
+      eq(schema.pageRevisions.createdBy, userId)
     ));
 
   if (!draftRevision) {
@@ -157,43 +161,6 @@ export async function publishAction(companyId: string, companySlug: string) {
   // Update Careers Page Pointer
   await db.update(schema.careersPages)
     .set({ publishedRevisionId: draftRevision.id })
-    .where(eq(schema.careersPages.id, careersPage.id));
-
-  // Copy Draft sections to create a NEW Draft for future edits
-  // First, get the just-published sections
-  const publishedSections = await db.select()
-    .from(schema.pageSections)
-    .where(eq(schema.pageSections.revisionId, draftRevision.id));
-
-  // Query the actual max version to avoid duplicate key violations from partial publishes
-  const [maxVersionRow] = await db.select({ maxVersion: max(schema.pageRevisions.version) })
-    .from(schema.pageRevisions)
-    .where(eq(schema.pageRevisions.careersPageId, careersPage.id));
-  const nextVersion = (maxVersionRow?.maxVersion ?? draftRevision.version) + 1;
-
-  // Create new draft revision
-  const [newDraft] = await db.insert(schema.pageRevisions).values({
-    careersPageId: careersPage.id,
-    version: nextVersion,
-    status: 'draft',
-    themeConfig: draftRevision.themeConfig,
-  }).returning();
-
-  // Copy sections to new draft
-  if (publishedSections.length > 0) {
-    const newDraftSections = publishedSections.map(s => ({
-      revisionId: newDraft.id,
-      type: s.type,
-      title: s.title,
-      content: s.content,
-      displayOrder: s.displayOrder,
-    }));
-    await db.insert(schema.pageSections).values(newDraftSections);
-  }
-
-  // Update careers page draft pointer
-  await db.update(schema.careersPages)
-    .set({ currentDraftRevisionId: newDraft.id })
     .where(eq(schema.careersPages.id, careersPage.id));
 
   revalidatePath(`/${companySlug}/edit`);
